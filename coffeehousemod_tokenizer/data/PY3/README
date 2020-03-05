@@ -77,10 +77,10 @@ Computational Linguistics 32: 485-525.
 ---- Training Code ----
 
 # import punkt
-import nltk.tokenize.punkt
+import coffeehouse_nlpfr.tokenize.punkt
 
 # Make a new Tokenizer
-tokenizer = nltk.tokenize.punkt.PunktSentenceTokenizer()
+tokenizer = coffeehouse_nlpfr.tokenize.punkt.PunktSentenceTokenizer()
 
 # Read in training corpus (one example: Slovene)
 import codecs
